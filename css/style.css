@@ -23,11 +23,12 @@
 
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900|Open+Sans:400,600,700');
  body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	color: #777;
 }
 .img {
 	max-width: 100%;
@@ -80,9 +81,9 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
-	color: #313131;
+	color: #202020;
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 400;
@@ -126,7 +127,7 @@ p {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 24px;
-	color: #7e7e7e;
+	color: #777;
 	margin-bottom: 15px;
 }
 hr {
@@ -187,8 +188,73 @@ label {
 	vertical-align: middle;
 	white-space: nowrap;
 }
-.breadcrumb > .active {
-	color: #888;
+.btn-round {
+	background: #08237e;
+	color: #fff;
+	font-weight: 700;
+	padding: 17px 32px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-radius: 30px;
+}
+
+
+/* header */
+.welcome-message span {
+	font-family: 'Montserrat', sans-serif;
+}
+.welcome-message span a {
+ color: #08237e;
+}
+.header-social-icon{}
+.header-social-icon a {
+ color: #959595;
+ font-size: 14px;
+ margin-left: 18px;
+}
+.header-social-icon a:hover{color: #202020}
+.social-border{
+ border-left: 1px solid #d1d1d1;
+}
+/* cta */
+.single-cta {
+ float: right;
+ margin-left: 90px;
+}
+.single-cta h3 {
+ color: #007bff;
+ font-size: 16px;
+ font-weight: 700;
+ margin-bottom: 3px;
+}
+.single-cta {
+}
+.single-cta h3 i {
+ margin-right: 3px;
+}
+
+/* main menu */
+.main-menu ul li {
+ display: inline-block;
+ margin-right: 40px;
+}
+.main-menu ul li a {
+ color: #fff;
+ font-weight: 700;
+ font-family: 'Montserrat', sans-serif;
+ text-transform: uppercase;
+ font-size: 16px;
+ display: block;
+ padding: 30px 0;
+ line-height: 1;
+}
+.main-menu ul li:hover > a{
+ opacity: .7;
+}
+.quote-btn {
+ margin-top: 12px;
+ text-align: right;
 }
 
 
