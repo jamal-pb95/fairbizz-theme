@@ -23,7 +23,7 @@
 
 
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900|Open+Sans:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:400,600,700');
  body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
@@ -200,61 +200,62 @@ label {
 }
 
 
+
 /* header */
 .welcome-message span {
-	font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat', sans-serif;
 }
 .welcome-message span a {
- color: #08237e;
+	color: #08237e;
 }
 .header-social-icon{}
 .header-social-icon a {
- color: #959595;
- font-size: 14px;
- margin-left: 18px;
+	color: #959595;
+	font-size: 14px;
+	margin-left: 18px;
 }
 .header-social-icon a:hover{color: #202020}
 .social-border{
- border-left: 1px solid #d1d1d1;
+	border-left: 1px solid #d1d1d1;
 }
 /* cta */
 .single-cta {
- float: right;
- margin-left: 90px;
+  float: right;
+  margin-left: 90px;
 }
 .single-cta h3 {
- color: #007bff;
- font-size: 16px;
- font-weight: 700;
- margin-bottom: 3px;
+  color: #007bff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 3px;
 }
 .single-cta {
 }
 .single-cta h3 i {
- margin-right: 3px;
+  margin-right: 3px;
 }
 
 /* main menu */
 .main-menu ul li {
- display: inline-block;
- margin-right: 40px;
+  display: inline-block;
+  margin-right: 40px;
 }
 .main-menu ul li a {
- color: #fff;
- font-weight: 700;
- font-family: 'Montserrat', sans-serif;
- text-transform: uppercase;
- font-size: 16px;
- display: block;
- padding: 30px 0;
- line-height: 1;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: block;
+  padding: 30px 0;
+  line-height: 1;
 }
 .main-menu ul li:hover > a{
- opacity: .7;
+	opacity: .7;
 }
 .quote-btn {
- margin-top: 12px;
- text-align: right;
+	margin-top: 12px;
+	text-align: right;
 }
 
 
