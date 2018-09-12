@@ -238,7 +238,8 @@ label {
 /* main menu */
 .main-menu ul li {
   display: inline-block;
-  margin-right: 40px;
+	margin-right: 40px;
+	position: relative;
 }
 .main-menu ul li a {
   color: #fff;
@@ -253,7 +254,57 @@ label {
 .main-menu ul li:hover > a{
 	opacity: .7;
 }
+
+/* submenu */
+.main-menu ul li ul.submenu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	width: 200px;
+	transition: .3s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.main-menu ul li:hover ul.submenu {
+	opacity: 1;
+	visibility: visible;
+}
+.main-menu ul li ul.submenu li {
+	display: block;
+	margin: 0;
+	border-bottom: 1px solid #ddd;
+}
+.main-menu ul li ul.submenu li:last-child {
+	border: 0;
+}
+.main-menu ul li ul.submenu li a {
+	padding: 15px 25px;
+	font-weight: 500;
+	color: #444;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+.main-menu ul li ul.submenu li:hover > a {
+	color: #007BDD;
+}
+.main-menu ul li ul.submenu li > ul.submenu {
+	top: 0;
+	left: 100%;
+	opacity: 0;
+	visibility: hidden;
+}
+.main-menu ul li ul.submenu li:hover > ul.submenu {
+	opacity: 1;
+	visibility: visible;
+}
 .quote-btn {
 	margin-top: 12px;
 	text-align: right;
+}
+.menu-area {
+	margin-bottom: -76px;
+	position: relative;
+	z-index: 99;
 }
