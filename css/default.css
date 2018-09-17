@@ -662,6 +662,10 @@
 .primary-bg {
 	background: #222;
 }
+.bg-cover {
+	background-size: cover;
+	background-position: center center;
+}
 /* Color */
 
 .white-color {
@@ -677,7 +681,10 @@
 	color: #222;
 }
 /* black overlay */
-
+.z-index {
+	position: relative;
+	z-index: 7;
+}
 [data-overlay] {
 	position: relative;
 }

@@ -86,5 +86,10 @@
     ]
   });
 
+  // Magnific popup
+  $('.view-video').magnificPopup({
+    type: 'iframe'
+  });
+
 
 })(jQuery);
