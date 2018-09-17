@@ -1,1 +1,1 @@
-# web-for-me
+# FairBizz Multipurpose HTML, CSS, Bootstrap, jQuery theme
