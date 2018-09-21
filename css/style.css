@@ -594,7 +594,8 @@ label {
 	margin-bottom: 20px;
 }
 
-.case-content h3 a:hover {
+.case-content h3 a:hover,
+.case-content>a:hover {
 	color: #007bff;
 }
 
@@ -607,4 +608,23 @@ label {
 
 .case-img {
 	margin-bottom: 23px;
+}
+
+.case-active .slick-arrow {
+	position: absolute;
+	top: -70px;
+	right: 50px;
+	background: no-repeat;
+	padding: 0;
+	border: 0;
+	font-size: 27px;
+	color: #777777;
+}
+
+.case-active .slick-arrow:hover {
+	color: #007bff;
+}
+
+.case-active .slick-next {
+	right: 15px;
 }
