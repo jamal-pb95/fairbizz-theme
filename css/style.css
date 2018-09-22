@@ -628,3 +628,48 @@ label {
 .case-active .slick-next {
 	right: 15px;
 }
+
+/* testimonial */
+.single-testimonial p {
+	font-size: 30px;
+	color: #202020;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.client-info h5 {
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 3px;
+}
+
+.client-info {
+	padding-left: 15px;
+	padding-top: 3px;
+}
+
+.client-info span {
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.testimonial-active .slick-arrow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: no-repeat;
+	padding: 0;
+	border: 0;
+	font-size: 27px;
+	color: #777777;
+	z-index: 1;
+}
+
+.testimonial-active .slick-arrow:hover {
+	color: #007bff;
+}
+
+.testimonial-active .slick-next {
+	left: 30px;
+}
