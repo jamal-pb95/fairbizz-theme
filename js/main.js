@@ -172,5 +172,7 @@
     type: 'iframe'
   });
 
+  // form select 
+  $('select').niceSelect();
 
 })(jQuery);

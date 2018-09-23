@@ -248,6 +248,16 @@ label {
 	border-radius: 30px;
 }
 
+.btn-primary {
+	background: #08237e;
+	color: #fff;
+	font-weight: 700;
+	padding: 17px 40px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
 
 
 /* header */
@@ -672,4 +682,69 @@ label {
 
 .testimonial-active .slick-next {
 	left: 30px;
+}
+
+/* form */
+.consultation-form {
+	padding: 70px;
+	margin-top: -50px;
+	margin-bottom: -50px;
+}
+
+.consultation-form h3 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+.consultation-form input {
+	height: 60px;
+	width: 100%;
+	border: 0;
+	margin-bottom: 30px;
+	padding: 0 15px;
+}
+
+.consultation-form textarea {
+	height: 225px;
+	width: 100%;
+	border: 0;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+
+.consultation-form button {
+	padding: 22px 60px;
+}
+
+.nice-select {
+	-webkit-tap-highlight-color: transparent;
+	background-color: #fff;
+	border-radius: 0;
+	border: 0;
+	box-sizing: border-box;
+	clear: both;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	height: 60px;
+	line-height: 58px;
+	outline: none;
+	padding-left: 15px;
+	padding-right: 30px;
+	position: relative;
+	text-align: left !important;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	white-space: nowrap;
+	width: 100%;
+	margin-bottom: 30px;
 }
