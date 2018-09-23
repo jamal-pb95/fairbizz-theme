@@ -49,7 +49,7 @@
   mainSlider();
 
   // Service slider
-  $('.service-active').slick({
+  $(".service-active").slick({
     dots: true,
     infinite: false,
     speed: 300,
@@ -87,7 +87,7 @@
   });
 
   // Cases Slider
-  $('.case-active').slick({
+  $(".case-active").slick({
     dots: false,
     infinite: true,
     speed: 300,
@@ -127,7 +127,7 @@
   });
 
   // Testimonial
-  $('.testimonial-active').slick({
+  $(".testimonial-active").slick({
     dots: false,
     infinite: true,
     speed: 300,
@@ -167,7 +167,7 @@
   });
 
   // Brand Logo slide
-  $('.brand-active').slick({
+  $(".brand-active").slick({
     dots: false,
     infinite: false,
     speed: 300,
@@ -206,11 +206,11 @@
 
 
   // Magnific popup
-  $('.view-video').magnificPopup({
-    type: 'iframe'
+  $(".view-video").magnificPopup({
+    type: "iframe"
   });
 
   // form select 
-  $('select').niceSelect();
+  $("select").niceSelect();
 
 })(jQuery);
