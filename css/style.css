@@ -796,3 +796,41 @@ label {
 .faq-wrapper .card-header h5 a.collapsed:after {
 	content: "\f067";
 }
+
+
+/* Latest Blog */
+.latest-blog-content {
+	padding: 30px;
+}
+
+.latest-blog-content h4 {
+	color: #444;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.4;
+	margin-bottom: 15px;
+}
+
+.latest-blog-content h4 a:hover {
+	color: #007bff;
+}
+
+.blog-meta span {
+	font-size: 14px;
+	color: #777777;
+	margin-right: 10px;
+}
+
+.blog-meta span a {
+	color: #007bff;
+}
+
+.read-more a {
+	color: #333333;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.read-more {
+	margin-top: 80px;
+}
