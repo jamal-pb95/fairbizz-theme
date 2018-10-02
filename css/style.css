@@ -834,3 +834,99 @@ label {
 .read-more {
 	margin-top: 80px;
 }
+
+/* Footer */
+.footer-widget p {
+	color: #d5d5d5;
+	margin-bottom: 30px;
+}
+
+.subscribe-form {
+	position: relative;
+	width: 250px;
+}
+
+.subscribe-form input {
+	width: 100%;
+	height: 40px;
+	background: no-repeat;
+	border: 1px solid #7f7f7f;
+	padding: 0 15px;
+	color: #d5d5d5;
+}
+
+.subscribe-form input::-moz-placeholder,
+.subscribe-form input::placeholder {
+	color: #999999
+}
+
+.subscribe-form button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: no-repeat;
+	border: 0;
+	color: #999;
+	width: 40px;
+}
+
+.footer-widget h3 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.footer-widget .footer-link li {
+	margin-bottom: 10px;
+	width: 50%;
+	float: left;
+}
+
+.footer-widget .footer-link li a {
+	color: #d5d5d5;
+}
+
+.footer-widget .footer-link li a:hover {
+	text-decoration: line-through;
+}
+
+.contact-list li {
+	margin-bottom: 10px;
+	color: #d5d5d5;
+}
+
+.footer-icon span {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	margin-right: 15px;
+}
+
+.footer-icon a {
+	color: #999999;
+	margin-right: 10px;
+}
+
+.copyright-border {
+	border-top: 1px solid #4f597c;
+}
+
+.copyright p {
+	color: #d5d5d5;
+	margin: 0;
+}
+
+.footer-menu {}
+
+.footer-menu ul {}
+
+.footer-menu ul li {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.footer-menu ul li a {
+	color: #d5d5d5;
+}
