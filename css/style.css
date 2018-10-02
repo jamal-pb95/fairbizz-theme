@@ -748,3 +748,51 @@ label {
 	width: 100%;
 	margin-bottom: 30px;
 }
+
+
+/* FAQ Area */
+.faq-thumb img {
+	margin-left: -100px;
+}
+
+.faq-wrapper {}
+
+.faq-wrapper .card {
+	margin-bottom: 20px;
+	border-radius: 0;
+}
+
+.faq-wrapper .card-header {
+	padding: 0;
+	border-radius: 0;
+	background: no-repeat;
+}
+
+.faq-wrapper .card-header h5 {}
+
+.faq-wrapper .card-header h5 a {
+	font-size: 18px;
+	color: #333333;
+	font-weight: 700;
+	display: block;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+
+.card-header:first-child {
+	border-radius: 0;
+}
+
+.faq-wrapper .card-header h5 a::after {
+	position: absolute;
+	content: "\f068";
+	top: 20px;
+	right: 20px;
+	font-size: 15px;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 700;
+}
+
+.faq-wrapper .card-header h5 a.collapsed:after {
+	content: "\f067";
+}
