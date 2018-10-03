@@ -25,7 +25,13 @@
       nextArrow: '<button type="button" class="slick-next"><i class="lnr lnr-arrow-right"></i> Next</button>',
       arrows: true,
       responsive: [
-        { breakpoint: 767, settings: { dots: false, arrows: false } }
+        { breakpoint: 767, settings: { dots: false, arrows: false } },
+        {
+          breakpoint: 1200,
+          settings: {
+            arrows: false
+          }
+        }
       ]
     });
 

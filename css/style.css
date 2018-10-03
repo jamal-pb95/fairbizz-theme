@@ -620,6 +620,10 @@ label {
 	margin-bottom: 23px;
 }
 
+.case-img img {
+	width: 100%;
+}
+
 .case-active .slick-arrow {
 	position: absolute;
 	top: -70px;

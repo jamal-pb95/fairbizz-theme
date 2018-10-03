@@ -2,8 +2,29 @@
 @media (min-width: 1200px) and (max-width: 1500px) {}
 
 
-/* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {}
+/* Normal desktop (LG Devices) :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .slider-height {
+    min-height: 650px;
+  }
+
+  .slider-content h2 {
+    font-size: 52px;
+  }
+
+  .case-content h3 {
+    font-size: 18px;
+  }
+
+  .consultation-form {
+    padding: 30px;
+  }
+
+  .faq-thumb img {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 
 
 /* Tablet desktop :768px. */
@@ -13,8 +34,8 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {}
 
-/* Large Mobile :480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* Large Mobile :550px. */
+@media only screen and (min-width: 550px) and (max-width: 767px) {
   .container {
     width: 450px
   }
