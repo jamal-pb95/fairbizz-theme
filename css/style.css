@@ -753,6 +753,15 @@ label {
 	margin-bottom: 30px;
 }
 
+/* Brand Area */
+.single-brand {
+	text-align: center;
+}
+
+.single-brand img {
+	display: inline-block;
+}
+
 
 /* FAQ Area */
 .faq-thumb img {
