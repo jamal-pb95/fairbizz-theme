@@ -91,6 +91,56 @@
   .social-border {
     border-left: 0;
   }
+
+  .menu-area {
+    margin-bottom: 0;
+  }
+
+  .logo-area.pt-25.pb-25 {
+    padding-bottom: 10px;
+  }
+
+  .slider-height {
+    min-height: 550px;
+  }
+
+  .slider-content h2 {
+    font-size: 34px;
+  }
+
+  .slider-content p {
+    font-size: 13px;
+  }
+
+  .section-title h2 {
+    font-size: 35px;
+  }
+
+  .video-wrapper h2 {
+    font-size: 30px;
+  }
+
+  .consultation-form {
+    padding: 40px 15px;
+  }
+
+  .faq-thumb img {
+    margin-left: 0;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .faq-wrapper .card-header h5 a::after {
+    display: none;
+  }
+
+  .copyright p {
+    margin-bottom: 20px;
+  }
+
+  .footer-menu ul li {
+    margin: 0 10px;
+  }
 }
 
 /* Large Mobile :550px. */

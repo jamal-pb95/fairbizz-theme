@@ -1,6 +1,12 @@
 (function($) {
   "use strict";
 
+  // main menu
+  $("#mobile-menu").meanmenu({
+    meanMenuContainer: ".mobile-menu",
+    meanScreenWidth: "767"
+  });
+
   // main slider
   function mainSlider() {
     var BasicSlider = $(".slider-active");
@@ -123,7 +129,8 @@
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows: false
         }
       }
       // You can unslick at a given breakpoint now by adding:
@@ -198,7 +205,7 @@
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
