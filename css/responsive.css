@@ -141,6 +141,10 @@
   .footer-menu ul li {
     margin: 0 10px;
   }
+
+  .page-title h2 {
+    font-size: 36px;
+  }
 }
 
 /* Large Mobile :550px. */
@@ -148,5 +152,7 @@
   .container {
     width: 450px
   }
+
+
 
 }

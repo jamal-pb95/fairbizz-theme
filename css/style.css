@@ -558,6 +558,17 @@ label {
 	margin-bottom: 25px;
 }
 
+.service-box a {
+	color: #666;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.service-box a:hover {
+	color: #007bff;
+}
+
 /* Video */
 .video-wrapper h4 {
 	color: #ededed;
@@ -942,4 +953,50 @@ label {
 
 .footer-menu ul li a {
 	color: #d5d5d5;
+}
+
+/* Page title */
+.page-title-area {
+	padding-top: 240px;
+	padding-bottom: 150px;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* Services Page */
+.page-title h2 {
+	font-size: 72px;
+	font-weight: 900;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.breadcrumb {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: 0;
+	margin-bottom: 1rem;
+	list-style: none;
+	background: no-repeat;
+	border-radius: 0;
+}
+
+.breadcrumb-item a {
+	color: #fff;
+}
+
+/* services cta */
+.cta-area {
+	background-size: cover;
+	background-position: center center;
+}
+
+.cta-text h2 {
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 1.2;
+	margin: 0;
 }
